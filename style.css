@@ -1,9 +1,19 @@
 h1{
 	color:blue;
+	text-align: center;
 }
 body{
-	background-color: blue
+	background-color: white
 }
 .menu{
-	font-size: 20px;
+	font-size: 40px;
+	column-count: 4;
+	column-fill: auto;
+	display: inline-block;
+}
+.intro{
+    border: 10px ridge #f00;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
 }
